@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(247, 208, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.resized-image {
+    width: 200px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: #b79f58c1;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+#image1{
+    height: auto;
+    width: 500px;
+}
+#image2 {
+    height: auto;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #af663ccb;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;                                                                                       
+}
+#image3 {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #c5483da7;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+#image4 {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
+#page5 {
+    height: 100vh;
+    width: 100%;
+    background-color: #df856aaa;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+#image5 {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
+#page6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #698e8a95;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+#image6 {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
+#page7 {
+    height: 100vh;
+    width: 100%;
+    background-color: #d6616798;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+}
+#image7 {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    bottom: 120%; 
+    z-index: 10;
+}
